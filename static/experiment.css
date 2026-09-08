@@ -1,1 +1,43 @@
+body {
+        background-color: black;
+    }
+    h1 {
+        color: white;
+       font-family: "press start 2p", "monospace ";
+    }
+    p {
+        color: white;
+        font-family: "press start 2p", "consolas", sans-serif;
+        
+    }
+    body {
+    text-align: center;
+    font-family: Arial;
+}
 
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 400px;
+    justify-content: center;
+}
+
+.videos video {
+    width: 640px;
+    height: 360px;
+}
